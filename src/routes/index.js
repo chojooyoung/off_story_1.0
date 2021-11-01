@@ -10,7 +10,7 @@ import Chat from './Chat'
 import Example from '~/components/designs/Example'
 import PersonalInfo from './PersonalInfo'
 import ResultOfPostList from './ResultOfPostList'
-import Authcheck from './Authcheck'
+import AuthCheck from './AuthCheck'
 import Editor from '~/components/pages/postContent/Editor'
 import EditPage from '~/components/pages/postContent/EditPage'
 import NotFound from './NotFound'
@@ -109,7 +109,7 @@ export default createRouter({
     {
       name: 'Authcheck',
       path: '/authcheck',
-      component: Authcheck,
+      component: AuthCheck,
     },
 
     {

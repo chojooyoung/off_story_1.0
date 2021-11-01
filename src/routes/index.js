@@ -107,7 +107,7 @@ export default createRouter({
       component: Chat,
     },
     {
-      name: 'authcheck',
+      name: 'Authcheck',
       path: '/authcheck',
       component: Authcheck,
     },

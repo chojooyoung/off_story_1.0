@@ -1,0 +1,17 @@
+@mixin font($sz: 16px, $lh: 1.5, $ls: -0.02em, $w: 400, $color: $COLOR_PRIMARY) {
+	font-size: $sz;
+	line-height: $lh;
+	letter-spacing: $ls;
+	font-weight: $w;
+	color: $color
+}
+
+@mixin font-face($name, $file) {
+	@font-face {
+	font-family: '#{$name}';
+		src: local('#{$file}'),
+		url('/src/assets/fonts/#{$file}.eot') format('embedded-opentype'),
+		url('/src/assets/fonts/#{$file}.ttf') format('truetype'),
+		url('/src/assets/fonts/#{$file}.woff') format('woff'),
+	}
+}
